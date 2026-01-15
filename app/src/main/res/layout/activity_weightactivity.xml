@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".weightactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#90afc5">
+
+        <TextView
+            android:id="@+id/weightText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="Weight/Mass Converter"
+            android:textColor="#2a3132"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/fromWeight"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/toWeight"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/weightEnter"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="30sp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Enter Value" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/convertWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Convert"
+            android:backgroundTint="#2a3132"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+        <TextView
+            android:id="@+id/weightView"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:textSize="34sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

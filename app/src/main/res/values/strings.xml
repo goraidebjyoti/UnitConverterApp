@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string-array name="lengthList">
+        <item>Millimetres</item>
+        <item>Centimetres</item>
+        <item>Metres</item>
+        <item>Kilometres</item>
+        <item>Inches</item>
+        <item>Feet</item>
+    </string-array>
+
+    <string-array name="weightList">
+        <item>Milligrams</item>
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Pounds</item>
+        <item>Tonnes</item>
+        <item>Ounces</item>
+    </string-array>
+
+    <string-array name="volumeList">
+        <item>Millilitres</item>
+        <item>Litres</item>
+        <item>Imperial Gallons</item>
+        <item>Cubic Centimetres</item>
+        <item>Cubic Feet</item>
+    </string-array>
+</resources>
